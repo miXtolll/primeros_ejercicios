@@ -10,7 +10,7 @@ fun anadir(tareas: MutableList<String>, tarea: String) {
 }
 
 fun completar(tareas: MutableList<String>, indice: Int) {
-    // El usuario ve las tareas numeradas desde 1, asi que restamos 1
+
     val pos = indice - 1
     if (pos < 0 || pos >= tareas.size) {
         println("Indice no valido.")
